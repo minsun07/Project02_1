@@ -11,6 +11,28 @@ namespace Project02_1
         static void Main(string[] args)
         {
             // 계산기 프로그램 제작
+            int a, b;
+            // 나중에 입력 받을 예정
+
+            int result;
+
+            a = 100;
+            b = 50;
+
+            result = a + b;
+            Console.WriteLine(a + " + " + b + " = " + result);  // 연산자 : operator
+
+            result = a - b;
+            Console.WriteLine(a + " - " + b + " = " + result);
+
+            result = a * b;
+            Console.WriteLine(a + " * " + b + " = " + result);
+
+            result = a / b;
+            Console.WriteLine(a + " / " + b + " = " + result);
+
+
         }
     }
 }
+     
